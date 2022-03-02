@@ -42,7 +42,6 @@
   margin-top: 13px;
   height: 100vh;
   color: var(--color_text);
-
   font-family: var(--font-family);
   font-weight: bolder;
   text-align: center;
@@ -55,4 +54,16 @@
   width: 200px;
   text-align: center;
   font-size: 30px;
+}
+@media all and (min-width: 768px) {
+ .title {
+     font-size:40px;
+ }
+.menu_header {
+    font-size: 16px;
+}
+.header_container {
+    justify-content: space-around;
+}
+  }
 }
